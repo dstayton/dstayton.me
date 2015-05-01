@@ -39,18 +39,8 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
 </head>
 <body>
 
-  <div class="statusbar-overlay"></div>
-      <!-- Views -->
-      <div class="views">
-        <!-- Your main view, should have "view-main" class -->
-        <div class="view view-main">
-          <!-- Top Navbar-->
-          <div class="navbar">
-            <div class="navbar-inner">
-              <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-              <div class="center sliding">Awesome App</div>
-            </div>
-          </div>
+<div class="statusbar-overlay"></div>
+
 <div class="panel-overlay"></div>
 
 <div class="panel panel-left panel-reveal">
@@ -58,7 +48,19 @@ g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.pare
 <p>Left panel content goes here</p>
 </div>
 </div>
+<div class="views">
 
+<div class="view view-main">
+
+<div class="navbar">
+<div class="navbar-inner">
+
+<div class="center sliding">Awesome App</div>
+<div class="right">
+ <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+</div>
+</div>
+</div>
 <div class="views tabs toolbar-through">
 
 <div id="view-1" class="view view-main tab active">
