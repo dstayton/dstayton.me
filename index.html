@@ -11,6 +11,7 @@
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/my-app.css">
+    <script src="https://use.fonticons.com/e5aaf29f.js"></script>
     <link rel="apple-touch-icon" href="ios/AppIcon.appiconset/Icon-60@2x.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="ios/AppIcon.appiconset/Icon-60@3x.png" />
   <link rel="apple-touch-icon" sizes="76x76" href="ios/AppIcon.appiconset/Icon-76.png" />
@@ -64,6 +65,7 @@
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
           <!-- Page, data-page contains page name-->
+          <div class="tab active" id="index">
           <div data-page="index" class="page">
             <!-- Scrollable page content-->
             <div class="page-content">
@@ -95,6 +97,19 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="tab" id="tab2">
+        <div class="page-content">
+          <div class="content-block-title">Welcome To My New Beta App</div>
+          <div class="content-block">
+            <div class="content-block-inner">
+              <p>Here is my official custom app.</p>
+              <p>Warning app is in beta stage!</p>
+              <p>All of this app is supgect to change.</p>
+            </div>
+          </div>
+        </div>
+      </div>
         <!-- Bottom Toolbar-->
         <div class="toolbar tabbar">
           <div class="toolbar-inner"></center><a href="#index" class="tab-link"><i class="fa fa-home"></i></a></center></div>
