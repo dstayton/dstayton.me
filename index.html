@@ -47,10 +47,16 @@
           <div data-page="index" class="page">
             <!-- Scrollable page content -->
             <div class="page-content">
-              <a onclick="cookieClick(1)" class="button color-orange button-big button-round active">Cookies</a>
-              <br />
-              <br />
-              <a onclick="buyCursor()" class="button color-red button-big button-round">Buy Cursor</a>
+            <!-- Tabs wrapper, shoud have "tabs" class. Required element -->
+<div class="tabs">
+  <!-- First tab, should have "tab" class and unique id attribute -->
+  <!-- First tab is active by default - additional "active" class -->
+  <div class="tab active" id="tab1">
+  <a onclick="cookieClick(1)" class="button color-orange button-big button-round active">Cookies</a>
+  </div>
+  <!-- Second tab, should have "tab" class and unique id attribute -->
+  <div class="tab" id="tab2">
+     <a onclick="buyCursor()" class="button color-red button-big button-round">Buy Cursor</a>
               <br />
               Cursors: <span id="cursors">0</span>
               <br />
@@ -73,6 +79,15 @@
               Alters To dstayon: <span id="alter">0</span>
               <br />
               Alters Cost: <span id="alterCost">100000</span>
+  </div>
+  <!-- Third tab, should have "tab" class and unique id attribute -->
+  <div class="tab" id="tab3">
+    ... Tab 3 content goes here ...
+  </div>
+</div>  
+              
+              
+             
             </div>
           </div>
         </div>
