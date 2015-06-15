@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/framework7.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
+
   </head>
   <body>
     <!-- Status bar overlay for full screen mode (PhoneGap) -->
@@ -20,7 +21,12 @@
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-cover">
       <div class="content-block">
-        <p>Will put things here later. Sorry for now.</p>
+        <center>
+          <p>Enter All Who Dare</p>
+          <p>
+            To began the fight for justice!!!
+          </p>
+        </center>
       </div>
     </div>
     <!-- Right panel with cover effect-->
@@ -82,12 +88,9 @@
   </div>
   <!-- Third tab, should have "tab" class and unique id attribute -->
   <div class="tab" id="tab3">
-    ... Tab 3 content goes here ...
+    This game is not what it seams
   </div>
-</div>  
-              
-              
-             
+</div>
             </div>
           </div>
         </div>
@@ -120,6 +123,8 @@
     <script type="text/javascript" src="main.js"></script>
     <script>
       var myApp = new Framework7({swipePanel:'left'});
+      var mainView = myApp.addView('.view-main');
+      var myApp = new Framework7({swipePanel:'right'});
       var mainView = myApp.addView('.view-main');
     </script>
   </body>
