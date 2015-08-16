@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Thanks for installing</string>
+	</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -149,11 +154,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>marks-imac.local.8B0B64B3-EFBA-4BD0-AD64-0AE3F6F9B657.com.apple.webClip.managed.3869F313-E458-465C-8CE1-14EE58647086</string>
+			<string>marks-imac.local.8BB3FF9E-00BB-45A5-9FDD-EEA75ABDE8E4.com.apple.webClip.managed.AC48D2AE-E2AD-4E2F-963A-3F104A2DFA05</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>3869F313-E458-465C-8CE1-14EE58647086</string>
+			<string>AC48D2AE-E2AD-4E2F-963A-3F104A2DFA05</string>
 			<key>PayloadVersion</key>
 			<real>1</real>
 			<key>Precomposed</key>
@@ -162,16 +167,20 @@
 			<string>http://dstayton.me</string>
 		</dict>
 	</array>
+	<key>PayloadDescription</key>
+	<string>dstayton clicker game installer</string>
 	<key>PayloadDisplayName</key>
-	<string>Untitled 3</string>
+	<string>dstayton clicker</string>
 	<key>PayloadIdentifier</key>
-	<string>marks-imac.local.8B0B64B3-EFBA-4BD0-AD64-0AE3F6F9B657</string>
+	<string>marks-imac.local.8BB3FF9E-00BB-45A5-9FDD-EEA75ABDE8E4</string>
+	<key>PayloadOrganization</key>
+	<string>dstayton</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>B2070B90-4FC4-4BAD-A4A9-A86D04117F16</string>
+	<string>8A5E16DC-F047-49CA-A0E4-4C9489CABAC6</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
