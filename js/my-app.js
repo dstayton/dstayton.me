@@ -3,13 +3,17 @@ var myApp = new Framework7();
 
 // Export selectors engine
 var $$ = Dom7;
-
+var no = 0;
 $$('.notification-default').on('click', function () {
-    myApp.addNotification({
+       if(no < 1){
+myApp.addNotification({
         title: 'Important',
         message: 'Game does not save score yet!!!'
     });
 });
+no = no + 1;
+    };
+
 
 // Add view
 var mainView = myApp.addView('.view-main', {
