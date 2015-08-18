@@ -4,6 +4,13 @@ var myApp = new Framework7();
 // Export selectors engine
 var $$ = Dom7;
 
+$$('.notification-default').on('load', function () {
+    myApp.addNotification({
+        title: 'Important',
+        message: 'Game does not save score yet!!!'
+    });
+});
+
 // Add view
 var mainView = myApp.addView('.view-main', {
     // Because we use fixed-through navbar we can enable dynamic navbar
