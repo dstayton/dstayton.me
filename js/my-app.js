@@ -4,7 +4,7 @@ var myApp = new Framework7();
 // Export selectors engine
 var $$ = Dom7;
 
-$$('.notification-default').on('load', function () {
+$$('.notification-default').on('click', function () {
     myApp.addNotification({
         title: 'Important',
         message: 'Game does not save score yet!!!'
