@@ -152,5 +152,14 @@
     <script type="text/javascript" src="js/my-app.js"></script>
     <script src="inobounce.js"></script>
     <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">
+( function() {
+    CHITIKA = window.CHITIKA ? window.CHITIKA : { 'units' : [] };
+    CHITIKA.publisher = 'dstayton';
+    var s = document.createElement('script');
+    s.src = '//cdn.chitika.net/getads.js';
+    try { document.getElementsByTagName('head')[0].appendChild(s); } catch(e) { document.write(s.outerHTML); }
+}());
+</script>
   </body>
 </html>
