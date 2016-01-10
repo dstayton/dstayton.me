@@ -112,10 +112,11 @@
   <!-- Third tab, should have "tab" class and unique id attribute -->
   <div class="tab" id="tab3">
 
-  <form accept-charset="UTF-8" action="https://formkeep.com/f/6a6b117cef51" method="POST">
+  <form action="https://formspree.io/me@dstayton.com" method="POST" class="form-stacked">
     <input type="text" name="email" class="field-light" placeholder="Email Address">
     <textarea type="text" name="content" class="field-light" rows="5" placeholder="What bug would you like to report?"></textarea>
     <input type="hidden" name="_subject" value="New bug report" />
+    <input type="hidden" name="_next" value="http://dstayton.me/#tab1" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" class="button button-blue button-big mobile-block" value="Send in bug">
   </form>
