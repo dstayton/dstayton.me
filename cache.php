@@ -2,6 +2,7 @@
 header('Content-Type: text/cache-manifest');
 $filesToCache = array(
 	'./index.html',
+	'./bugs.html',
 	
 	'./css/framework7.css',
 	'./css/framework7.themes.css',
@@ -37,11 +38,13 @@ $filesToCache = array(
 	'./img/i-form-toggle.png',
 	'./img/i-form-url.png',
 	
-	'./iTunesArtwork.png',
-	'./js/bugreporter7.js',
-	'./js/cookies.js',
+	'./js/framework7.js',
+	'./js/framework7.js.map',
+	'./js/framework7.min.js.map',
 	'./js/framework7.min.js',
-	'./js/jquery.js'
+	'./js/my-app.js',
+	'./inobounce.js',
+	'./main.js'
 );
 ?>
 CACHE MANIFEST
