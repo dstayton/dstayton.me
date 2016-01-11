@@ -1,0 +1,23 @@
+{
+	"en": {
+		"updates": [
+			{
+				"version": "1.0.1",
+				"build": "2341",
+				"updateType": "production",
+				"description": "This update contains bug fixes and improvements.",
+				"content": "• Fixed Deadlock after completing \"Tips\" section<br>• Restructured Bug information layout (Dates FTW!)<br>• Removed unnecessary code lines (still doesn't reduce size that much)<br>• Added option to remove all website data<br>• Background Image in Bug view (Open, Closed and Archived; only visible when no bugs are loaded",
+				"instructions": "This update is recommended to all users of Bug Reporter⁷."
+			},
+			{
+				"version": "1.0",
+				"build": "2213",
+				"updateType": "factory",
+				"description": "Initial Release of dstayton clicker.",
+				"content": "This is the initial release of dstayton clicker that comes with every fresh installation.",
+				"instructions": "This update is recommended to all users of dstayton clicker."
+			}
+		]
+	},
+	"de": {}
+}
