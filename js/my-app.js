@@ -19,7 +19,9 @@ myApp.onPageInit('about', function (page) {
         createContentPage();
     });
 });
-
+function submit() {
+                myApp.alert('Bug Report sent. Thank You.');
+            }
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
